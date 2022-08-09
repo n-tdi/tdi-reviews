@@ -1,4 +1,5 @@
 <script context="module">
+    // @ts-ignore
     export async function load({ fetch }) {
         const res = await fetch('/api/reviews.json');
         const { reviews}  = await res.json();
@@ -19,9 +20,10 @@
 </script>
 
 <script>
-// @ts-nocheck
-
-    export let reviews;
+    export /**
+    * @type {any}
+    */
+     let reviews;
 
     console.log(reviews);
 </script>
