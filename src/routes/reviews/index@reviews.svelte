@@ -1,7 +1,7 @@
 <script context="module">
     export async function load({ fetch }) {
-        const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-        const reviews = await res.json();
+        const res = await fetch('/api/reviews.json');
+        const { reviews}  = await res.json();
 
         if (res.ok) {
             return {
@@ -22,6 +22,8 @@
 // @ts-nocheck
 
     export let reviews;
+
+    console.log(reviews);
 </script>
 
 <div class="review">
