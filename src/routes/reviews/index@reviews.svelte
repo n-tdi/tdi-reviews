@@ -44,8 +44,9 @@
     }
     a {
         display: inline-block;
-        margin-top: 10px;
-        padding: 10px;
-        border: 1px dotted rgba(255,255,255,0.2);
+        margin-top: 1%;
+        padding: 1%;
+        border: 2px dotted rgba(255,255,255,0.2);
+        font-weight: 300;
     }
 </style>

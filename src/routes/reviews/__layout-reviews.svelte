@@ -28,12 +28,12 @@
         nav {
             display: flex;
             align-items: center;
-            max-width: 960px;
+            max-width: 88%;
             margin: 0 auto;
         }
     }
     main {
-        max-width: 960px;
+        max-width: 88%;
         margin: 20px auto;
     }
     footer { 

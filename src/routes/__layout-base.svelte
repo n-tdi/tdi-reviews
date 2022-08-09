@@ -22,7 +22,7 @@
         background-color: rgba(0,0,0,0.1);
     }
     main {
-        max-width: 960px;
+        max-width: 88%;
         margin: 20px auto;
     }
     footer { 

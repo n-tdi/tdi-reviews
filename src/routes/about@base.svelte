@@ -14,5 +14,8 @@
         text-align: center;
         display: block;
         margin: 20px auto;
+        a {
+            margin: 0 10px;
+        }
     }
 </style>

@@ -9,3 +9,31 @@ h1,h2,h3,h4,a,p,li {
   font-family: 'Kanit', monospace;
   font-weight: normal;
 }
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+a, li {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 100;
+}
